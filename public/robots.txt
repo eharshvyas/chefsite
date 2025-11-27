@@ -1,0 +1,16 @@
+# Allow all search engines to crawl the entire site
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.chefsurendrarawat.com/sitemap.xml
+
+# Crawl-delay to be respectful to servers
+Crawl-delay: 0
+
+# Block access to admin or private areas
+Disallow: /api/
+Disallow: /_next/static/
+
+# Additional sitemaps for better indexing
+Host: https://www.chefsurendrarawat.com
